@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello, Welcome from node app" }');
+    res.send('{ "response": "Hello, Welcome from node app change!!" }');
 });
 
 app.get('/ready', function (req, res) {

@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: testwebapp
-        image: myid6412/testwebapp:latest
+        image: myid6412/testwebapp
+        imagePullPolicy:Always
         ports:
         - containerPort: 3000

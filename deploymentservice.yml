@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: myid6412/testwebapp:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         

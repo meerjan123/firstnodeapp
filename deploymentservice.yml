@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: myid6412/testnodeappwithjenkins
+        image: myid6412/testnodeappwithjenkins:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000

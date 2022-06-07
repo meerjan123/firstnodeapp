@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('Hello, Welcome to Demo of Deploying Node Application into Kubernetes Cluster using Jenkins Pipeline');
+    res.send('{ "response": "Hello Welcome to the First Node App with Jenkins" }');
 });
 
 app.get('/ready', function (req, res) {

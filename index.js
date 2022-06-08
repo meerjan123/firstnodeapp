@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello Welcome to the First Node App with Jenkins!!" }');
+    res.send('{ "response": "Hello Welcome to the First Node App with Jenkins!" }');
 });
 
 app.get('/ready', function (req, res) {

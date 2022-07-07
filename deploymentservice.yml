@@ -6,6 +6,13 @@ metadata:
     app: nodeapp
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: nodeapp
+  template:
+    metadata:
+      labels:
+        app: nodeapp 
     spec:
       containers:
       - name: nodeserver
@@ -29,3 +36,4 @@ spec:
   - protocol: TCP
     port: 5000
     targetPort: 3000
+    nodePort: 31110
